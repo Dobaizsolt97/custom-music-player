@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" href="./favicon.png">
+    <link rel="stylesheet" href="./style.css" />
+    <title>Custom music player</title>
+  </head>
+  <body>
+    <div class="container">
+      
+      <h1 id="artist">Post Malone</h1>
+      <div class="image-container">
+        <img src="./images/Post-Malone-img.jpg" id='cover'  class="cover">
+      </div>
+      <p id="song-name">Wow</p>
+      <div class="progress-bar" id='progress-bar'>
+        <div class="progress" id='progress'></div>
+      </div>
+      <div class="button-container">
+        <div class="music-container">
+        <audio id='audio' src="./music//Wow.mp3"></audio></div>
+        <button id="prev" class="action-btn">
+          <i class="fas fa-backward"></i>
+        </button>
+        <button id="play" class="action-btn action-btn-big">
+          <i class="fas fa-play"></i>
+        </button>
+        <button id="next" class="action-btn">
+          <i class="fas fa-forward"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+    <script
+      src="https://kit.fontawesome.com/fc2be9cb8c.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
