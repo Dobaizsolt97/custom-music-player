@@ -23,7 +23,7 @@ const music = [
   },
   {
     artist: "The Weekend",
-    title: "Blinding lights",
+    title: "Blinding Lights",
     img: "./images/The-weekend-img.jpg"
   },
   {
